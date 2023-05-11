@@ -5,7 +5,6 @@ console.log( bankName);
 var bankName= "SBI";
 var typeOfbankName = typeof bankName;
 console.log( "bankName-> SBI :",typeOfbankName );
-
 var marks;
 console.log( marks);
 marks=90;
