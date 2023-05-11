@@ -19,7 +19,7 @@ var Education = "BE";
 var typeOfEducation = typeof Education;
 console.log( "Education -> BE: ", typeOfEducation );
 //2. Number
-var marks;
+var weight;
 weight = 55;
 console.log( weight);
 var weight=55;
@@ -64,7 +64,7 @@ console.log( diffrence);
   console.log( undefined);
 
   var Null;
-  Null=" Null =  a null value means that there is no value,its is simply nothing"
+  Null= " Null =  a null value means that there is no value,its is simply nothing"
   console.log( Null);
 
 
