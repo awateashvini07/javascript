@@ -8,7 +8,6 @@ console.log( " ------------------------------------------------------");
 var hobby1 = " Reading Books";
 var hobby2 = " Gardening";
 var hobby3 = " Learning languages";
-
 var myHobbies = hobby1.concat(hobby2, hobby3);
 console.log(" My Hobbies are :", myHobbies);
 var myHobbieslength = myHobbies.length;
