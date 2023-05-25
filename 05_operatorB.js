@@ -59,3 +59,4 @@ function squareOfWordLength(network) {
   console.log(" -------------------------------------------------");
 
 
+var string =networ
