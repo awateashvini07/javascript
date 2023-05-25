@@ -75,3 +75,6 @@ var resultSplit = greet.split("");
 console.log(resultSplit);
 console.log("Total number of words: ",resultSplit.length);
 console.log( " -----------------------------------------");
+var String = "Ashwini you are doing grat";
+var resultSplit = String.split(" ");
+console.log(  `total word :${result.slpit}`);
