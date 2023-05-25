@@ -53,6 +53,7 @@ function sumcubeOf(num1, num2, num3, num4, num5) {
   }
 }
 sumcubeOf(1, 2, 3, 4, 5);
+sumcubeOf(15,16,17,18,19);
 
 console.log("-----------------------------------");
 // to print the characters in the odd index position
@@ -84,3 +85,17 @@ for (let index = 0; index <= word.length; index++) {
 console.log( `    Odd positioned chars  :${string}`);
 console.log("----------------------------------------");
 
+function oddPositioneschars(string) {
+  var str = "";
+  for (let index = 0; index <string.length; index++) {
+    char=string.charAt( index);
+    if( index %2!==0 &&  char!= " "){
+      str= str+ char;
+    }
+  }
+  console.log( ` odd positining char  : ${ str}`);
+
+}
+oddPositioneschars("Hard work always pays back")
+oddPositioneschars("Soon I will be Angular IT Champ")
+oddPositioneschars(" My Name is Ashwini i am only one")
