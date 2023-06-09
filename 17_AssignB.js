@@ -18,7 +18,6 @@ const mahi = new Employee(22, "Mahesh", " HR", 85000, " Infy");
  const array=[ anil, radha, rishi, sonali,monika, viny,mahi ];
  console.log( `  1.. All the Employees working in " TCS" `);
  for (const employee of array) {
-  
   if (employee.empCompany==" TCS") {
     console.log(` Employees Name :  ${employee.empName}, Company Name : ${employee.empCompany}` );
     
