@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="mainHead" > My profiel Details </h1>
+    <h2 id="head"> Technology Stack</h2>
+    
+    <ul class="technology">
+        <li> HTML and CSS </li>
+        <li id="jira"> Agile and JIRA </li>
+        <li> Angular and React </li>
+        <li> Oracle and Database </li>
+    </ul>
+
+    <h3> My Hobbies</h3>
+    <a href="https://www.google.com/" target="_blank" class="link"> My Profile </a>
+    <p> Project Description</p>
+
+    <script> 
+    console.log('Changing CSS properties');
+   const elementAddress = document.querySelector('#head');
+ elementAddress.style.color = 'red';
+
+ const elementcolour = document.querySelector('#mainHead');
+ elementcolour.style.color = 'green';
+
+ console.log(`Removing an element`);
+const elementGTechnology = document.querySelector('.technology');
+const elementJira = document.querySelector('#jira');
+elementGTechnology.removeChild(elementJira);
+
+    </script>
+</body>
+</html>
